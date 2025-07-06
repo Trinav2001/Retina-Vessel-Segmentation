@@ -8,7 +8,7 @@ Check out the standalone demo notebook and run segRetino inferences here.
 
 
 ## Inspiration
-Various eye diseases can be diagnosed through the characterization of the retinal blood vessels. The characterization can be extracted by using proper imaging techniques and data analysis methods. In case of eye examination, one of the important tasks is the retinal image segmentation.The paper presents a network and training strategy that relies on the data augmentation to use the available annotated samples more efficiently, to segment retinal blood vessels using a UNET convolutional neural network.
+Various eye diseases can be diagnosed through the characterization of the retinal blood vessels. The characterization can be extracted by using proper imaging techniques and data analysis methods. In case of eye examination, one of the important tasks is the retinal image segmentation. The paper presents a network and training strategy that relies on the data augmentation to use the available annotated samples more efficiently, to segment retinal blood vessels using a UNET convolutional neural network.
 
 ## Dataset
 We have used the <a href = "https://drive.grand-challenge.org/">Digital Retinal Images for Vessel Extraction (DRIVE)</a> dataset for retinal vessel segmentation.
@@ -66,19 +66,19 @@ To use the repo and run inferences, please follow the guidelines below
 
 - Cloning the Repository: 
 
-        $ git clone https://github.com/srijarkoroy/segRetino
+        git clone https://github.com/Trinav2001/Retina-Vessel-Segmentation.git
         
 - Entering the directory: 
 
-        $ cd segRetino/
+        cd Retina-Vessel-Segmentation
         
 - Setting up the Python Environment with dependencies:
 
-        $ pip install -r requirements.txt
+        pip install -r requirements.txt
 
 - Running the file for inference:
 
-        $ python3 test.py
+        python3 test.py
         
 Running the test file downloads the pretrained weights of the UNET Model that we have trained on the DRIVE Dataset. However if you want to re-train the model please mention the path to your dataset on you local machine after augmentations, inside the ```train.py``` file, as:
 
@@ -120,9 +120,9 @@ Original Image | Masked Image | Blend Image |
 ## Contributors
 
 - <a href = "https://github.com/srijarkoroy">Srijarko Roy</a>
-- <a href = "https://github.com/SaishaShetty">Saisha Shetty</a>
 - <a href = "https://github.com/KushGrandhi">Kush Grandhi</a>
-- <a href = "https://github.com/Reyeah">Ria Gala</a> 
+- <a href = "https://github.com/Trinav2001">Trinav Rattan</a>
+- <a href = "https://github.com/SaishaShetty">Saisha Shetty</a>
+- <a href = "https://github.com/Reyeah">Ria Gala</a>
 
-## Contribution
-Contributions are always welcome! Please check out this <a href="https://github.com/srijarkoroy/segRetino/blob/main/docs/contributing.md">doc</a> for Contribution Guidelines. 
+
